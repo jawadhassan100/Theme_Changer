@@ -5,22 +5,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 h1{
     font-family: Poppins;
-    font-size: 5.5vw;
+    font-size: 80px;
 }
 
 #darkTheme{
-    font-size: 4vw;
+    font-size: 70px;
     cursor: pointer;
 }
 
 #lightTheme{
-    font-size: 4vw;
+    font-size: 70px;
     cursor: pointer;
     display: none;
 }
 
+@media screen and (max-width:376px) {
+    h1{
+        font-size:35px ;
+    }
+
+    #darkTheme, #lightTheme{
+        font-size: 35px;
+    }
+}
